@@ -1,4 +1,4 @@
-CREATE PROCEDURE [dlm].[uspStaticData_SalesCurrency]
+CREATE PROCEDURE [data].[uspStaticData_SalesCurrency]
 AS
 BEGIN
 
