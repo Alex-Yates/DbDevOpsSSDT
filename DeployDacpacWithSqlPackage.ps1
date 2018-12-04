@@ -9,5 +9,5 @@ Write-Host "Executing: & sqlpackage $args"
 & sqlpackage $args
 
 # Requires the following env variables to be set
-# dacpac | $(System.DefaultWorkingDirectory)/_SqlServerCentral20181101-.NET Desktop-CI/drop/SqlServerCentralDB/SqlServerCentral/bin/Release/SqlServerCentral.dacpac
-# profile | $(System.DefaultWorkingDirectory)/_SqlServerCentral20181101-.NET Desktop-CI/drop/SqlServerCentralDB/SqlServerCentral/bin/Release/int.publish.xml
+# dacpac | $(System.DefaultWorkingDirectory)/_SqlServerCentral-.NET Desktop-CI/drop/SqlServerCentralDB/SqlServerCentral/bin/Release/SqlServerCentral.dacpac
+# profile | $(System.DefaultWorkingDirectory)/_SqlServerCentral-.NET Desktop-CI/drop/SqlServerCentralDB/SqlServerCentral/bin/Release/int.publish.xml
